@@ -1,0 +1,113 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:100%;
+    position: fixed;
+    height:15%;
+    justify-content: space-around;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.search{
+    height:20%;
+    width:15%;
+}
+#logo{
+    transform: rotate(-90deg);
+    height: 100%;
+    
+}
+.header-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:20%;
+}
+.Om-oss{
+    position: absolute;
+    top:15%;
+    height:85%;
+    width:100%;
+    background-image: linear-gradient(#00ffff,#FF00FF);
+    
+}
+.what-do-we-do-title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height:10%;
+    align-items: center;
+    font-size: 40px;
+}
+.what-do-we-do-text-main{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    height:75%;
+
+}
+
+.Services1, .Services2, .Services3 > p{
+
+    width:100%;
+    font-size: 24px;
+    
+}
+
+.Services1, .Services2, .Services3 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5%;
+    border: 1px solid black;
+    height: 60%;
+    
+}
+
+.products{
+    width: 100%;
+    height:85%;
+    background: linear-gradient(#FF00FF,#00ffff);
+    top:100%;
+    position: absolute;
+}
+.product-main-title{
+    width:100%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+    font-size: 40px;
+}
+.products-div{
+    width:100%;
+    height:65%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobile-case, .tshirt, .hoodie{
+    display: flex;
+    width:30%;
+    height:80%;
+    justify-content: center;
+    border: 1px solid black;
+}
+.mobile-case, .tshirt, .hoodie b{
+    margin-top: 15%;
+    font-size: 35px
+}
+#mobileCasePic, #whiteShirtPic, #blackHoodiePic{
+    width:20%;
+    position: absolute;
+    margin-top: 5%;
+}
