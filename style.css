@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -9,7 +10,7 @@ header{
     height:15%;
     justify-content: space-around;
     color: white;
-    background: black;
+    background: #020105;
     display: flex;
     align-items: center;
 }
@@ -27,6 +28,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width:20%;
+    font-size: 24px;
 }
 .Om-oss{
     position: absolute;
@@ -47,7 +49,6 @@ header{
 .what-do-we-do-text-main{
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     height:75%;
 
 }
@@ -90,7 +91,6 @@ header{
 .products-div{
     width:100%;
     height:65%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,12 +102,33 @@ header{
     justify-content: center;
     border: 1px solid black;
 }
-.mobile-case, .tshirt, .hoodie b{
-    margin-top: 15%;
-    font-size: 35px
+.mobile-case b, .tshirt b, .hoodie b{
+    margin-top: 10%;
+    font-size: 35px;
 }
 #mobileCasePic, #whiteShirtPic, #blackHoodiePic{
     width:20%;
     position: absolute;
     margin-top: 5%;
+    
+}
+
+footer{
+    width:100%;
+    height:15%;
+    background-color: #020105;
+    top:185%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer a, footer b{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    margin-left: 5%;
+    width:20%;
+
 }
